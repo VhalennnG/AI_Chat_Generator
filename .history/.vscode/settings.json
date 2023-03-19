@@ -1,0 +1,4 @@
+{
+  "prettier.bracketSameLine": true,
+  "reactSnippets.settings.prettierEnabled": true
+}
