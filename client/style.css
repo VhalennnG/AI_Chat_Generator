@@ -8,15 +8,14 @@
 }
 
 body {
-  /* background: #343541; */
-  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 }
 
 #app {
   width: 100vw;
   height: 100vh;
-  background: url("assets/background.gif") no-repeat center fixed;
   background-size: cover;
+  background: url("assets/background.gif") no-repeat center fixed;
 
   display: flex;
   flex-direction: column;
@@ -65,15 +64,10 @@ body {
 }
 
 .user {
-  /* background: #40414f; */
-  /* backdrop-filter: blur(15px); */
-
   border-radius: 10px;
 }
 
 .ai {
-  /* background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%); */
-  /* backdrop-filter: blur(10px); */
   border-radius: 10px;
 }
 
@@ -81,11 +75,9 @@ body {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  /* margin-left: 20px; */
 
   display: flex;
   flex-direction: row;
-  /* align-items: flex-start; */
   gap: 10px;
 }
 
@@ -97,7 +89,6 @@ body {
   margin-right: 8px;
 
   background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
-  /* background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%); */
 
   display: flex;
   justify-content: center;
@@ -148,7 +139,7 @@ form {
   width: 60%;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 5px;
   background: #40414f;
 
   display: flex;
@@ -188,4 +179,84 @@ button {
 form img {
   width: 20px;
   height: 20px;
+}
+
+/* Styles for screens up to 767px wide (smartphones) */
+@media (max-width: 767px) {
+  #app {
+    background: url("assets/md.gif") no-repeat center fixed;
+  }
+
+  #chat_container {
+    width: 85%;
+  }
+  form {
+    width: 85%;
+    padding: 2px;
+    display: flex;
+    margin-bottom: 10%;
+  }
+  textarea {
+    width: 100%;
+    margin: 2px;
+
+    font-size: 16px;
+  }
+
+  .message {
+    font-size: 16px;
+    margin-right: none;
+  }
+
+  .profile {
+    width: 32px;
+    height: 32px;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  form img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1022px) {
+  #app {
+    /* background: url("assets/md1.gif") no-repeat center fixed; */
+    background-image: url("assets/background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #chat_container {
+    width: 70%;
+    padding-top: 5%;
+  }
+  form {
+    width: 70%;
+    padding: 5px;
+    display: flex;
+    margin-bottom: 7%;
+  }
+
+  textarea {
+    width: 100%;
+    margin: 7px;
+
+    font-size: 20px;
+  }
+
+  .message {
+    font-size: 20px;
+    margin-right: none;
+  }
+
+  .profile {
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
 }
