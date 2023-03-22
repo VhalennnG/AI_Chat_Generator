@@ -184,7 +184,12 @@ form img {
 /* Styles for screens up to 767px wide (smartphones) */
 @media (max-width: 767px) {
   #app {
-    background: url("assets/md.gif") no-repeat center fixed;
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   #chat_container {
