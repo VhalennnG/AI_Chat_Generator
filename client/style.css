@@ -8,14 +8,13 @@
 }
 
 body {
-  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  background: url("assets/background.jpg") no-repeat center fixed;
 }
 
 #app {
   width: 100vw;
   height: 100vh;
   background-size: cover;
-  background: url("assets/background.gif") no-repeat center fixed;
 
   display: flex;
   flex-direction: column;
@@ -181,12 +180,28 @@ form img {
   height: 20px;
 }
 
+#creator {
+  padding-top: 1%;
+  font-size: xx-large;
+  color: #efd5ff;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+#creator a {
+  text-decoration: none;
+  color: aqua;
+}
+
+#creator a:hover {
+  text-shadow: 0px 0px 2px cyan, 0px 0px 8px cyan, 0px 0px 16px cyan;
+}
+
 /* Styles for screens up to 767px wide (smartphones) */
 @media (max-width: 767px) {
   #app {
     margin: 0;
     padding: 0;
-    background-image: url("assets/bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -228,8 +243,6 @@ form img {
 
 @media only screen and (min-width: 768px) and (max-width: 1022px) {
   #app {
-    /* background: url("assets/md1.gif") no-repeat center fixed; */
-    background-image: url("assets/background.gif");
     background-repeat: no-repeat;
     background-size: cover;
   }
