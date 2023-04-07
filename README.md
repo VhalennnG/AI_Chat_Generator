@@ -142,6 +142,8 @@ Vhalen_G - [vhalentinog@gmail.com](mailto:vhalentinog@gmail.com)
 
 Project Link: [AI Chat Generator](https://github.com/VhalennnG/AI_Chat_Generator)
 
+Image by: [Bart Tchorzewski](https://www.artstation.com/kasza)
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
