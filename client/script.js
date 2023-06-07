@@ -81,7 +81,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   // fetch data from server => bot's response
-  const response = await fetch("https://ai-v14-chat.onrender.com", {
+  const response = await fetch("https://ai-chatbot-6uzw.onrender.com/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
