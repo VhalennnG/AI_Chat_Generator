@@ -22,7 +22,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://aiv14chat.vercel.app">
+  <a href="https://chatbotv14.vercel.app">
     <img src="images/bot.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -31,7 +31,7 @@
   <p align="center">
     An awesome chatbot AI based on ChatGPT!
     <br />
-    <a href="https://aiv14chat.vercel.app"><strong>Check the website »</strong></a>
+    <a href="https://chatbotv14.vercel.app"><strong>Check the website »</strong></a>
     <br />
     <br />
   </p>
