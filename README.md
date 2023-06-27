@@ -29,7 +29,7 @@
   <h3 align="center">Chatbot AI</h3>
 
   <p align="center">
-    An awesome chatbot AI based on ChatGPT!
+    An awesome chatbot AI!
     <br />
     <a href="https://chatbotv14.vercel.app"><strong>Check the website »</strong></a>
     <br />
